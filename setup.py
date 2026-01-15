@@ -33,9 +33,9 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        "Django>=4.2,<5.2",
+        "Django>=4.2,<6.2",
         "djangorestframework>=3.12,<3.16",
-        "django-haystack>=2.8,<3.4",
+        "django-haystack>=2.8,<3.6",
         "python-dateutil",
     ],
     tests_require=["coverage", "geopy", "requests"],
